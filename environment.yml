@@ -5,8 +5,8 @@ channels:
 dependencies:
   - python=3.11.9
   - pandas=2.1.4
-  - altair
-  - numpy
+  - altair=5.0.1
+  - numpy=1.26.0
   - pip
   - pip:
       - deepchecks==0.18.1
