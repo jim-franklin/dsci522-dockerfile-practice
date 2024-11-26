@@ -1,0 +1,12 @@
+name: my-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.9
+  - pandas=2.1.4
+  - altair
+  - numpy
+  - pip
+  - pip:
+      - deepchecks==0.18.1
